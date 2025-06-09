@@ -1,0 +1,45 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.xyz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;  
+}
+
+label {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+input[type="text"] {
+  font-size: 18px;
+  padding: 12px;
+  width: 100%;  
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 25px;
+  background-color: #eee;
+  border: 1px solid #888;
+  border-radius: 5px;
+  cursor: pointer;
+
+  width: fit-content;  
+  align-self: center;  
+}
+
